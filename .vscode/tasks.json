@@ -1,0 +1,19 @@
+{
+      // See https://go.microsoft.com/fwlink/?LinkId=733558
+      // for the documentation about the tasks.json format
+      "version": "2.0.0",
+      "tasks": [
+            {
+                  "label": "build",
+                  "type": "shell",
+                  "command": "python",
+                  "args": [
+                        // "softmax/softmax_0.py"
+                        "CNN_Basic/LeNet_.py", //MLP_0.py-->MLP_paramerM.py-->
+                        ">",
+                        // "5-MLP/run.log"
+                        "CNN_Basic/z-run.log"
+                  ]
+            }
+      ]
+}
